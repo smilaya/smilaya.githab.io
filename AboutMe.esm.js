@@ -6,7 +6,7 @@ export class AboutMe {
   }
 
   renderText() {
-    fetch("/data.json")
+    fetch("data.json")
       .then((res) => res.json())
       .then((res) => (this.node.innerHTML = res[this.key]));
   }

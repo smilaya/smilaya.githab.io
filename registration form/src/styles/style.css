@@ -1,0 +1,40 @@
+label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+label,
+fieldset {
+  margin-bottom: 10px;
+}
+
+label span {
+  display: block;
+  margin-bottom: 4px;
+}
+
+[type="checkbox"][checked] {
+  outline: 2px solid red;
+}
+td {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.validation-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background-image: linear-gradient(315deg, #3dcc7d 0%, #09c6f9 74%);
+}
+
+.wrapper {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 13px 0 #00000080;
+}

@@ -1,5 +1,5 @@
-import { AboutMe } from "./AboutMe.esm.js";
-import { TechStack } from "./TechStack.esm.js";
+import { AboutMe } from "./AboutMe.esm";
+import { TechStack } from "./TechStack.esm";
 
 new AboutMe({
   node: document.querySelector("#aboutMe"),
